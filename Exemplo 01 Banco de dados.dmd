@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Exemplo 01 Banco de dados" id="FD419033-66CA-5779-CEB8-6C098085ACEF" version="3.5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-18 13:20:17 UTC</createdTime>
+<ownerDesignName>Exemplo 01 Banco de dados</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FD419033-66CA-5779-CEB8-6C098085ACEF</designId>
+</OSDM_Design>
