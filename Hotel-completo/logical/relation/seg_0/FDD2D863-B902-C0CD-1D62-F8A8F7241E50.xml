@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="FDD2D863-B902-C0CD-1D62-F8A8F7241E50">
+<createdBy>milto</createdBy>
+<createdTime>2025-04-08 02:14:10 UTC</createdTime>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<sourcePk>0B962957-55BB-3B75-8BED-F6F5CB910E45</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4904FB21-A89B-6DCC-B6F0-925DBC2EDDCE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E11329B4-09D0-930F-2E44-3E3823A65544</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

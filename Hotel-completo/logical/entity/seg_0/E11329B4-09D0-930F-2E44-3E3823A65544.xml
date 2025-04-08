@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E11329B4-09D0-930F-2E44-3E3823A65544" name="QUARTO">
+<createdBy>milto</createdBy>
+<createdTime>2025-04-08 02:08:34 UTC</createdTime>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_hotel" id="92FA1A17-09AC-759A-F2FD-AE3CFC139345">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 13:48:29 UTC</createdTime>
+<generatorID>FDD2D863-B902-C0CD-1D62-F8A8F7241E50</generatorID>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<referedAttribute>1750F1D2-1934-848A-7338-026F8781A92B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_quarto" id="80A857B4-F191-D0BC-99BB-2188D3138ADA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 14:18:13 UTC</createdTime>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_quarto" id="719A34AD-2D84-4CCC-51E2-92698B85E38A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 14:20:58 UTC</createdTime>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_quarto" id="17A7510B-9433-5F7E-9575-2C5DB40BDD07">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 14:22:03 UTC</createdTime>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="capacidade" id="EE8D2E89-8D85-506A-91C6-AF65CCA93309">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 14:29:30 UTC</createdTime>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A888B159-BF11-6B63-0E55-3469C45550BB" name="QUARTO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 13:48:19 UTC</createdTime>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92FA1A17-09AC-759A-F2FD-AE3CFC139345</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

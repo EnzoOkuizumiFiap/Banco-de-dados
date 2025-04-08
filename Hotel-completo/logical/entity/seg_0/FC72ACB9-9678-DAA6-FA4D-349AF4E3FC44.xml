@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC72ACB9-9678-DAA6-FA4D-349AF4E3FC44" name="DEPARTAMENTO">
+<createdBy>milto</createdBy>
+<createdTime>2025-04-08 02:11:05 UTC</createdTime>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_hotel" id="EB2BAD92-17E3-B1CB-8745-C8808ACD6576">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 13:48:29 UTC</createdTime>
+<generatorID>3AE493E2-BB03-2E1D-B272-B5BF42966ED0</generatorID>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<referedAttribute>1750F1D2-1934-848A-7338-026F8781A92B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_departamento" id="5107FE9D-50FE-CE62-C771-CF1966D2C22B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 14:54:24 UTC</createdTime>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_departamento" id="B05FCFBB-4B34-71AA-86E4-652E8556AB14">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 14:57:32 UTC</createdTime>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="local_departamento" id="B53DDE96-7CB9-6A11-6E71-D35B659C7A9D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 14:59:20 UTC</createdTime>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9815CE98-279B-3678-9706-159A82A81F6A" name="DEPARTAMENTO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 14:57:59 UTC</createdTime>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B05FCFBB-4B34-71AA-86E4-652E8556AB14</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

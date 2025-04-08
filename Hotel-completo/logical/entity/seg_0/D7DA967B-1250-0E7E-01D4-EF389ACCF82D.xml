@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D7DA967B-1250-0E7E-01D4-EF389ACCF82D" name="RESERVA">
+<createdBy>milto</createdBy>
+<createdTime>2025-04-08 02:10:09 UTC</createdTime>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_hospede" id="29B8E736-FFE2-E4F4-E866-662BA69DF754">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 14:43:19 UTC</createdTime>
+<generatorID>2825E602-0473-D603-B202-ECCD418FF1AA</generatorID>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<referedAttribute>37427081-07B1-3A29-2E86-C99C45FAED87</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="320BABBE-960C-FE57-85CA-A9CCDD8A5727" name="RESERVA PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 14:33:00 UTC</createdTime>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>29B8E736-FFE2-E4F4-E866-662BA69DF754</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

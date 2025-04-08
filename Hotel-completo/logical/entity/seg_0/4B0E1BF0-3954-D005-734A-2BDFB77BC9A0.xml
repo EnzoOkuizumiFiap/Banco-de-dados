@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B0E1BF0-3954-D005-734A-2BDFB77BC9A0" name="ADICIONAL">
+<createdBy>milto</createdBy>
+<createdTime>2025-04-08 02:10:15 UTC</createdTime>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_adicional" id="BDB81FE3-CC4C-1CF7-3593-1B5BCB083F3C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 15:01:55 UTC</createdTime>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="39EA26FE-BABA-3546-CB64-675BDD2FB2F6" name="ADICIONAL PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 15:02:57 UTC</createdTime>
+<ownerDesignName>Hotel-completo</ownerDesignName>
+<engineerTo>
+<item key="665CAC2D-5178-078D-B4A6-020B89ED400B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F49C4902-1076-02C1-2CD7-8500123BC843</attributeRef>
+<attributeRef>FF09AEF5-7803-6A06-8BCF-3FB93A2FA34A</attributeRef>
+<attributeRef>BDB81FE3-CC4C-1CF7-3593-1B5BCB083F3C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
