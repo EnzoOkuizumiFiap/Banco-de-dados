@@ -91,4 +91,4 @@ SELECT ENAME, HIREDATE FROM EMP WHERE hiredate LIKE '%82';
 
 SELECT ENAME, JOB FROM EMP WHERE MGR IS NULL;
 
-//Falta 
+//Falta alguns exercícios
