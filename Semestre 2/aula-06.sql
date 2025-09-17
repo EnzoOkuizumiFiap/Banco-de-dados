@@ -121,10 +121,10 @@ select SYSDATE, MONTHS_BETWEEN('30-OCT-2006', SYSDATE) from dual;
 
 
 //Uma dízima, posso truncar: Ele corta
-select TRUNC(10/3, 2) from dual;
+select TRUNC(10/3, 2) from dual; //Remove números depois da segunda casa decimal.
 
 
-//Trunc e round
+//TRUNC corta, ROUND arredonda.
 select TRUNC(5678.9765, 2), ROUND(5678.9765, 2) from dual;
 
 select TRUNC(5678.9765, -2), ROUND(5678.9765, -2) from dual;
